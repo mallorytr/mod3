@@ -1,0 +1,53 @@
+#navbar-header{
+  background-color: #f6b319; //yellow
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navbar-brand h1 {
+  font-size: 3em;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #1C4995; //blue
+  text-align: center;
+}
+#nav-list a:hover {
+  background: green; /*#E7E7E7 gray*/
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.box h3 {
+	text-align: center;
+}
+
+.box a {
+	font-size: 1.2em;
+	color: black;
+}
+
+#chicken {
+	background-color: #19b3f6;  //blue
+}
+
+
+#beef {
+	background-color: #f6b319; //yellow
+}
+
+#sushi {
+	background-color: #f619b3;  //purple
+}  
