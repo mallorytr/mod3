@@ -1,53 +1,102 @@
-#navbar-header{
-  background-color: #f6b319; //yellow
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+
 }
 
+
+  
 .navbar-brand {
   padding-top: 15px;
+  
 }
 
-.navbar-brand h1 {
-  font-size: 3em;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: .75;
+#header-nav{
+    background-color: #19f675;
+      border-radius: 0;
+      border: 0;
+
 }
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
+
+
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  
+      color: #f619d1;
+      font-size: 1.5em;
+      text-transform: uppercase;
+      font-weight: bold;
+      text-shadow: 1px 1px 1px #222;
+      margin-top: 0;
+      margin-bottom: 0;
+      line-height: .75;
 }
 
 #nav-list {
   margin-top: 10px;
 }
+
 #nav-list a {
-  color: #1C4995; //blue
+  color: blue; //blue
   text-align: center;
 }
+
+
 #nav-list a:hover {
-  background: green; /*#E7E7E7 gray*/
+  background:#E7E7E7;
 }
 #nav-list a span {
   font-size: 1.8em;
 }
 
+h1 {
+  text-align: center;
+  color : red;
+}
+
+
+section {
+  position: relative;
+  margin: 10px;
+  border: 1px solid black;
+  background-color: gray;
+}
+
 .box h3 {
-	text-align: center;
+  text-align: center;
 }
 
 .box a {
-	font-size: 1.2em;
-	color: black;
+  
+  font-size: 1.2em;
+  color: black;
+
+  
 }
 
+
 #chicken {
-	background-color: #19b3f6;  //blue
+  background-color: #19b3f6;  //blue
 }
 
 
 #beef {
-	background-color: #f6b319; //yellow
+  background-color: #f6b319; //yellow
 }
 
 #sushi {
-	background-color: #f619b3;  //purple
-}  
+  background-color: #f619b3;  //purple
+}
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+      border: 1px solid #61122f;
+      }
+
+    
+    .navbar-header button.navbar-toggle {
+      clear: both;
+      margin-top: -30px;
+      } 
